@@ -12,6 +12,227 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="MaderaChirriante" ID="{00FE597B-7F6C-4A33-8206-BFC361B8EB77}" ShortID="926093496">
+							<PropertyList>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="IglesiaMadera" ID="{D6C32A5E-F290-4888-8F39-FF0F953CA9B4}" WorkUnitID="{D8DD219B-B7B2-4CD1-BE4C-12655CB922A2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="PasosMaderaChirriante" ID="{B5D09463-C1AB-45A0-81C8-93B057CCDA4D}" ShortID="54328805">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PasosMaderaChirriante" ID="{F8E4A6CB-68B4-4B72-B14C-FC01BE5E2D72}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.296134321284913"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.251802881122978"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.778368674396349"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>PasosMaderaChirriante.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="336076523"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PasosMaderaChirriante" ID="{F8E4A6CB-68B4-4B72-B14C-FC01BE5E2D72}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PasosMaderaChirriante_01" ID="{BF5977F3-2D2E-4214-9EFD-C43343154A9F}" ShortID="548698632">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PasosMaderaChirriante" ID="{ABD53ED4-CD0E-491D-AFF0-9810AEC3BD24}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.104775321699172"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.78986506406377"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.27171059055662"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>PasosMaderaChirriante.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="51035394"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PasosMaderaChirriante" ID="{ABD53ED4-CD0E-491D-AFF0-9810AEC3BD24}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PasosMaderaChirriante_02" ID="{24AB6BE7-264D-49D6-9496-54FF78862FAE}" ShortID="458120577">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PasosMaderaChirriante" ID="{93A3EDFC-0A89-4100-AD17-0AA2BB4A32DD}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.208043732041933"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.16162610424395"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.6753251334533"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>PasosMaderaChirriante.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="120085686"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PasosMaderaChirriante" ID="{93A3EDFC-0A89-4100-AD17-0AA2BB4A32DD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PasosMaderaChirriante_03" ID="{61FE8638-DD18-416B-A64C-E8A3AEC3B30C}" ShortID="673775086">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PasosMaderaChirriante" ID="{40D13379-6888-404F-9C1E-F5CCFBFD0D20}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.176020647655299"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="5.88630122519247"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.35076728770015"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>PasosMaderaChirriante.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="102747347"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PasosMaderaChirriante" ID="{40D13379-6888-404F-9C1E-F5CCFBFD0D20}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PasosMaderaChirriante_04" ID="{DD9EED2F-A641-4BAA-8F4A-A255E0DD84BE}" ShortID="776415062">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PasosMaderaChirriante" ID="{C9FED013-3DCB-4E8E-8057-F884BB4BB38F}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.325397224090395"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="10.7271792844209"/>
+												<Property Name="TrimEnd" Type="Real64" Value="11.2777248186205"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>PasosMaderaChirriante.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="945908085"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PasosMaderaChirriante" ID="{C9FED013-3DCB-4E8E-8057-F884BB4BB38F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PasosMaderaChirriante_05" ID="{C232655B-0B20-48D8-8BF7-1B31EB09208B}" ShortID="920826409">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PasosMaderaChirriante" ID="{20CE28E1-E834-43B7-96A8-1512B4A2B318}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.434667906020568"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="15.6793195526628"/>
+												<Property Name="TrimEnd" Type="Real64" Value="16.1973100684091"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>PasosMaderaChirriante.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1044298652"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PasosMaderaChirriante" ID="{20CE28E1-E834-43B7-96A8-1512B4A2B318}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PasosMaderaChirriante_06" ID="{816BD20D-3E58-444B-87AB-E0C645493422}" ShortID="960951653">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PasosMaderaChirriante" ID="{3E6A3C83-FB40-459C-91B8-921F8DE86850}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.159981937632573"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="17.9545620325687"/>
+												<Property Name="TrimEnd" Type="Real64" Value="18.4782426753546"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>PasosMaderaChirriante.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="480584870"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PasosMaderaChirriante" ID="{3E6A3C83-FB40-459C-91B8-921F8DE86850}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
 					<StateInfo>
 						<StatePropertyList>
 							<Property Name="Lowpass"/>

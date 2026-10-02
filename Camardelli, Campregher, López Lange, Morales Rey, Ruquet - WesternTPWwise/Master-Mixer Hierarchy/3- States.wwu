@@ -10,15 +10,15 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AuxBus Name="IglesiaMadera" ID="{9B5176F0-F431-4DD6-9A96-9C6E915966E9}">
+						<AuxBus Name="IglesiaMadera" ID="{D6C32A5E-F290-4888-8F39-FF0F953CA9B4}">
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<Reference>
 										<Local>
-											<EffectSlot Name="" ID="{19571296-166E-4A7C-ABE0-B2AA469CED8C}" ShortID="431908564">
+											<EffectSlot Name="" ID="{A9B19B24-099A-440B-8560-0FBE6E794128}" ShortID="562584084">
 												<ReferenceList>
 													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-														<ObjectRef Name="Church_Small_Wood" ID="{940CCB47-F031-4C6A-B0E6-726CAC418C02}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+														<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 													</Reference>
 												</ReferenceList>
 											</EffectSlot>
