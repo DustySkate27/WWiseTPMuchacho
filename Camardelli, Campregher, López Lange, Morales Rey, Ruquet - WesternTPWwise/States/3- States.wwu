@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6A2DFF99-A210-4F28-8B8D-E2A79144EEC3}" SchemaVersion="119">
+	<States>
+		<WorkUnit Name="3- States" ID="{6A2DFF99-A210-4F28-8B8D-E2A79144EEC3}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="RecintosAdicionales" ID="{62099DF8-B7C8-4F3E-B3C2-0CDF22E0B8B4}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{DEEC7A0B-C9A0-4984-A8BC-BD16FADEBE7E}"/>
+						<State Name="IglesiaDeMadera" ID="{97BC0369-1C25-4D3B-B7C9-D231A4BEDCC9}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="None" ID="{DEEC7A0B-C9A0-4984-A8BC-BD16FADEBE7E}"/>
+							<EndState Name="IglesiaDeMadera" ID="{97BC0369-1C25-4D3B-B7C9-D231A4BEDCC9}"/>
+							<Time>0.5</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

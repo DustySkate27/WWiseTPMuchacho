@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D8DD219B-B7B2-4CD1-BE4C-12655CB922A2}" SchemaVersion="119">
+	<Busses>
+		<WorkUnit Name="3- States" ID="{D8DD219B-B7B2-4CD1-BE4C-12655CB922A2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="BaseMaster" ID="{E8C2D9E0-0CE6-45CA-83F1-4FD8B9278AD3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{24D548EB-A602-457C-B674-0406D3C12AC5}" WorkUnitID="{15B1CA42-5E9D-42BB-BC05-071E58610D3B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="IglesiaMadera" ID="{9B5176F0-F431-4DD6-9A96-9C6E915966E9}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{19571296-166E-4A7C-ABE0-B2AA469CED8C}" ShortID="431908564">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Church_Small_Wood" ID="{940CCB47-F031-4C6A-B0E6-726CAC418C02}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

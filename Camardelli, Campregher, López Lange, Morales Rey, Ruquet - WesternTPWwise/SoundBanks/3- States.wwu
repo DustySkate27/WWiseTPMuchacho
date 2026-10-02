@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EC33B0C8-BD1C-4EC3-BCAE-99F0B6AD7BFA}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="3- States" ID="{EC33B0C8-BD1C-4EC3-BCAE-99F0B6AD7BFA}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="States" ID="{902D6132-CC91-4D1B-B645-B5EFE73653CA}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
