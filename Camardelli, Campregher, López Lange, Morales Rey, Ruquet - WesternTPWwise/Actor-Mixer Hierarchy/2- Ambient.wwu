@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{742373C5-EDF9-4A26-9AD0-071B5D1D6EEB}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="2- Ambient" ID="{742373C5-EDF9-4A26-9AD0-071B5D1D6EEB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="2_AmbientSnakeShake" ID="{2569D357-7D18-42F9-9934-1A6F2B435510}" ShortID="283894004">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="2_AmbientSnakeShake" ID="{23CF4623-C489-4DD8-8C56-CBF2125FBC77}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.76894165073436"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>2_AmbientSnakeShake.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="729824420"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="2_AmbientSnakeShake" ID="{23CF4623-C489-4DD8-8C56-CBF2125FBC77}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="2_AmbientTumbleWeed" ID="{A0C0F665-A542-47E5-B98B-BDD13623F573}" ShortID="395632236">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-19</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="2_AmbientTumbleWeed" ID="{DC9D87F2-A6B3-4F1F-85EE-A4E84F353AA0}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.0895410015858195"/>
+								<Property Name="TrimEnd" Type="Real64" Value="6.52753901560624"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>2_AmbientTumbleWeed.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="998189350"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="2_AmbientTumbleWeed" ID="{DC9D87F2-A6B3-4F1F-85EE-A4E84F353AA0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="2_DynamicDesertWind" ID="{ED2D7519-CD52-4075-BCB5-45EB2D25039B}" ShortID="829892288">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="2_DynamicDesertWind" ID="{FA893410-011D-48DC-B3A4-D1E3E5BF046D}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="6"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="14"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>2_DynamicDesertWind.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="564481911"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="2_DynamicDesertWind" ID="{FA893410-011D-48DC-B3A4-D1E3E5BF046D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Folder Name="Coyote" ID="{1C15F62C-5B8E-4D36-AD4D-162680CB293E}" ShortID="265273323">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Bark_Howl_Random" ID="{26B21F36-4BC2-4FDE-AC57-FA67C2FAC40B}" ShortID="399646972">
+							<PropertyList>
+								<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoopCount" Type="int32" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Silence" ID="{DC812946-CC80-49BA-AACC-39EA57D09849}" ShortID="1021574834">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<RandomSequenceContainer Name="Bark" ID="{FB16D915-A25A-471F-875E-7EB6C024F2CC}" ShortID="436140955">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="2_AmbientCoyotes_Bark_02" ID="{F66884FE-E1DE-4CE9-8361-6D1F5EC553FB}" ShortID="197968421">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="2_AmbientCoyotes" ID="{200E103D-8E99-4214-8892-04C5AF519136}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="37.2571244702969"/>
+														<Property Name="TrimEnd" Type="Real64" Value="37.9961302779778"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>2_AmbientCoyotes.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="248197725"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="2_AmbientCoyotes" ID="{200E103D-8E99-4214-8892-04C5AF519136}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="2_AmbientCoyotes_Bark_03" ID="{A16C67DE-5F5D-40D6-B319-15E4A080A629}" ShortID="564587469">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="2_AmbientCoyotes" ID="{C2722DA9-0AC6-4010-9C80-F28A06F2D43E}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="42.5257779972029"/>
+														<Property Name="TrimEnd" Type="Real64" Value="43.2415738774526"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>2_AmbientCoyotes.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="705200161"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="2_AmbientCoyotes" ID="{C2722DA9-0AC6-4010-9C80-F28A06F2D43E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="2_AmbientCoyotes_Bark_01" ID="{C94B7BA5-8FA5-4E63-8163-B235DBED2864}" ShortID="17911098">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="2_AmbientCoyotes" ID="{5D77C406-660E-4676-8166-C0FF9BE229BD}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="28.1582621182659"/>
+														<Property Name="TrimEnd" Type="Real64" Value="29.9714542816157"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>2_AmbientCoyotes.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1037511316"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="2_AmbientCoyotes" ID="{5D77C406-660E-4676-8166-C0FF9BE229BD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Howl" ID="{7E28F36B-36DE-4424-B2AC-F7189399AF5A}" ShortID="2105258">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="2_AmbientCoyotes_Howl_03" ID="{47F546EF-EDBF-4CC8-A8D5-3E63206F6680}" ShortID="64009640">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="2_AmbientCoyotes" ID="{8D1E507A-1950-483F-8202-5D45E30B921E}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="37.9540647104252"/>
+														<Property Name="TrimEnd" Type="Real64" Value="40.6384080388104"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>2_AmbientCoyotes.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="972441118"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="2_AmbientCoyotes" ID="{8D1E507A-1950-483F-8202-5D45E30B921E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="2_AmbientCoyotes_Howl_02" ID="{8EF8E758-BC4C-4BCE-AC97-A17C7FFA6682}" ShortID="684010176">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="2_AmbientCoyotes" ID="{4904A19E-E9E6-4F44-A411-0AA364F5EA11}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="19.6819600355378"/>
+														<Property Name="TrimEnd" Type="Real64" Value="21.9607937216385"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>2_AmbientCoyotes.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="343042537"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="2_AmbientCoyotes" ID="{4904A19E-E9E6-4F44-A411-0AA364F5EA11}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="2_AmbientCoyotes_Howl_01" ID="{9E4EE4B8-968F-4337-A3B0-270BC5A11167}" ShortID="948601888">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="2_AmbientCoyotes" ID="{8A8952D9-1DC1-44A3-8D0B-6C09078BBAE6}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.27758630313409"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.24323592695992"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>2_AmbientCoyotes.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="991686027"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="2_AmbientCoyotes" ID="{8A8952D9-1DC1-44A3-8D0B-6C09078BBAE6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<RandomSequenceContainer Name="Arena_Pasos" ID="{65932E92-8A6A-4EA6-AE66-CDBFD67E6BF0}" ShortID="564402889">
+					<PropertyList>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="PasoArena_01" ID="{9093B7C3-65DC-4A3B-9987-4126CD6B0891}" ShortID="385951723">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sand_FootSteps" ID="{4794F32E-D855-4A82-848A-816374603129}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.895744900098645"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.28197401030929"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Sand_FootSteps.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="389246283"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sand_FootSteps" ID="{4794F32E-D855-4A82-848A-816374603129}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PasoArena_02" ID="{519D695C-7F70-4F62-B297-E6C79DB9EA27}" ShortID="678293307">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sand_FootSteps" ID="{8C543B50-CF2D-4D9C-A8E0-1872E0282DBD}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.47415900464472"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.91719664298042"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Sand_FootSteps.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="846241358"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sand_FootSteps" ID="{8C543B50-CF2D-4D9C-A8E0-1872E0282DBD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PasoArena_03" ID="{4891BC82-6202-4D14-B5C9-BF0198197CDE}" ShortID="992240653">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sand_FootSteps" ID="{AC5F4A08-079B-4BEA-93BB-3F5CF739DE2C}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.95195630830144"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.2532970261123"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Sand_FootSteps.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="405680431"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sand_FootSteps" ID="{AC5F4A08-079B-4BEA-93BB-3F5CF739DE2C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PasoArena_04" ID="{EF84423C-57EA-4399-BA8B-03F4DFA270AA}" ShortID="102678341">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sand_FootSteps" ID="{1B76E6EF-CBC8-4A1A-B534-9FB64392BD18}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="4.60097884596483"/>
+										<Property Name="TrimEnd" Type="Real64" Value="4.93308172713308"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Sand_FootSteps.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1041336577"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sand_FootSteps" ID="{1B76E6EF-CBC8-4A1A-B534-9FB64392BD18}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PasoArena_05" ID="{46C73258-E491-4CAE-8A87-3D4C9AB59F46}" ShortID="150234702">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sand_FootSteps" ID="{39B1F742-3DE6-4D17-B065-8FF2F22B5D4E}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="6.68389507601264"/>
+										<Property Name="TrimEnd" Type="Real64" Value="6.92895963918485"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Sand_FootSteps.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="679079354"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sand_FootSteps" ID="{39B1F742-3DE6-4D17-B065-8FF2F22B5D4E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PasoArena_06" ID="{0F2CE8C3-3E06-4354-8095-094BD70B9672}" ShortID="196802530">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sand_FootSteps" ID="{4CAE06C4-04BE-472F-86E0-4F0672702311}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.164112153998921"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="7.77793831194743"/>
+										<Property Name="TrimEnd" Type="Real64" Value="8.05261710014892"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Sand_FootSteps.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="250710017"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sand_FootSteps" ID="{4CAE06C4-04BE-472F-86E0-4F0672702311}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Crow_Random" ID="{377A189E-1AB3-4C08-9155-B2B542C402EF}" ShortID="408072089">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="2_AmbientCrow_Squawk_01" ID="{548F696C-09D0-4627-B112-CCA10F9CA41C}" ShortID="1063605873">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="2_AmbientCrow" ID="{4B28D08F-BCC1-47CF-95C6-65D95EE84F1F}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0561812357266669"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.351408403361344"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.86388638157287"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>2_AmbientCrow.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="698668516"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="2_AmbientCrow" ID="{4B28D08F-BCC1-47CF-95C6-65D95EE84F1F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Silence" ID="{1859CDA2-DD5D-437E-8A05-AE815014D393}" ShortID="381991801">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="2_AmbientCrow_Squawk_02" ID="{D9F20732-E2A7-4361-8A43-A6D8C1D55FE5}" ShortID="211496033">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="2_AmbientCrow" ID="{5F9BB737-D15D-447A-9B93-ACBC061CECB3}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0561812357266669"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.351408403361344"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.86388638157287"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>2_AmbientCrow.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="698668516"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="2_AmbientCrow" ID="{5F9BB737-D15D-447A-9B93-ACBC061CECB3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

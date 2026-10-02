@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5683FDE7-4D7C-401A-9E01-2DD44B7E688C}" SchemaVersion="119">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{5683FDE7-4D7C-401A-9E01-2DD44B7E688C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5683FDE7-4D7C-401A-9E01-2DD44B7E688C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Ambient" ID="{4CD1F783-D549-4331-BCC6-908D6FEF809F}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Bark_Howl_Random" ID="{26B21F36-4BC2-4FDE-AC57-FA67C2FAC40B}" WorkUnitID="{742373C5-EDF9-4A26-9AD0-071B5D1D6EEB}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="2_DynamicDesertWind" ID="{ED2D7519-CD52-4075-BCB5-45EB2D25039B}" WorkUnitID="{742373C5-EDF9-4A26-9AD0-071B5D1D6EEB}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="2_AmbientTumbleWeed" ID="{A0C0F665-A542-47E5-B98B-BDD13623F573}" WorkUnitID="{742373C5-EDF9-4A26-9AD0-071B5D1D6EEB}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Arena_Pasos" ID="{65932E92-8A6A-4EA6-AE66-CDBFD67E6BF0}" WorkUnitID="{742373C5-EDF9-4A26-9AD0-071B5D1D6EEB}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

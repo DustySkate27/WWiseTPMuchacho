@@ -235,7 +235,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Paso1" ID="{A3010139-2073-4467-8484-098F37CAAC0E}" ShortID="79073397">
+						<Sound Name="PasoAlfombra_01" ID="{A3010139-2073-4467-8484-098F37CAAC0E}" ShortID="79073397">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
@@ -263,7 +263,7 @@
 								<ActiveSource Name="PasosAlfombra" ID="{69215491-6431-4D78-982E-832D00CFE155}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Paso2" ID="{3E5C22F4-1FB3-47B0-9AC8-AC000E02F823}" ShortID="324178890">
+						<Sound Name="PasoAlfombra_02" ID="{3E5C22F4-1FB3-47B0-9AC8-AC000E02F823}" ShortID="324178890">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
@@ -291,7 +291,7 @@
 								<ActiveSource Name="PasosAlfombra" ID="{F845C020-6E37-45F7-9438-E2BB567B9931}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Paso3" ID="{CD2C5E5D-C5FC-4B2C-BC1D-D226FFA33DCE}" ShortID="647174141">
+						<Sound Name="PasoAlfombra_03" ID="{CD2C5E5D-C5FC-4B2C-BC1D-D226FFA33DCE}" ShortID="647174141">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
@@ -319,7 +319,7 @@
 								<ActiveSource Name="PasosAlfombra" ID="{AF55D602-9360-4C16-B8E3-D259CC5C3C34}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Paso4" ID="{FCF28293-9202-4F72-8C0B-5DC9E53895A5}" ShortID="548647000">
+						<Sound Name="PasoAlfombra_04" ID="{FCF28293-9202-4F72-8C0B-5DC9E53895A5}" ShortID="548647000">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
@@ -347,7 +347,7 @@
 								<ActiveSource Name="PasosAlfombra" ID="{92B6EDED-CA42-45B8-BD33-B978F097DCFE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Paso5" ID="{3FD475F4-DCA9-497F-9EBE-8D7A9AE53377}" ShortID="684880537">
+						<Sound Name="PasoAlfombra_05" ID="{3FD475F4-DCA9-497F-9EBE-8D7A9AE53377}" ShortID="684880537">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
@@ -375,7 +375,7 @@
 								<ActiveSource Name="PasosAlfombra" ID="{3606D877-9594-4FD9-ADF0-19DBBD2467F1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Paso6" ID="{24254BB5-6794-414A-9D34-3DE55C37F08F}" ShortID="455644373">
+						<Sound Name="PasoAlfombra_06" ID="{24254BB5-6794-414A-9D34-3DE55C37F08F}" ShortID="455644373">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
@@ -403,7 +403,7 @@
 								<ActiveSource Name="PasosAlfombra" ID="{F384DC59-EED1-4885-AED4-CF87C9925A65}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Paso7" ID="{3BD4C594-C6B1-4778-8C06-6A37A2B01A44}" ShortID="415154328">
+						<Sound Name="PasoAlfombra_07" ID="{3BD4C594-C6B1-4778-8C06-6A37A2B01A44}" ShortID="415154328">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
