@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{78231EB9-A635-44CF-BCA2-BF27EDFDB122}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="2- Ambient" ID="{78231EB9-A635-44CF-BCA2-BF27EDFDB122}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="WindIntensity" ID="{122FAC94-A7E1-462D-9235-7FFAF922AEDA}"/>
+				<GameParameter Name="WalkSpeed" ID="{BFB7F2F5-8DD6-499C-92A3-32130AE2CB43}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
