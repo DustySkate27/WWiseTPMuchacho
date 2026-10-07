@@ -6,12 +6,20 @@
 				<SoundcasterSession Name="Ambient" ID="{4CD1F783-D549-4331-BCC6-908D6FEF809F}">
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
+							<GameParameterRef Name="CaveIntensity" ID="{ED38FCF7-EAF4-4218-A834-A1FF4268FF0E}"/>
+							<Value>69</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="WindIntensity" ID="{122FAC94-A7E1-462D-9235-7FFAF922AEDA}"/>
-							<Value>0</Value>
+							<Value>65</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="WalkSpeed" ID="{BFB7F2F5-8DD6-499C-92A3-32130AE2CB43}"/>
 							<Value>25</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MachineGunSpeed" ID="{AD697A63-F283-4EFA-8C5F-1A27B012E79C}"/>
+							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
