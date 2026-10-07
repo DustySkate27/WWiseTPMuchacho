@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5CDF9828-910B-4AE2-8172-252C5698B0AA}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="2- Cave" ID="{5CDF9828-910B-4AE2-8172-252C5698B0AA}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="CaveIntensity" ID="{ED38FCF7-EAF4-4218-A834-A1FF4268FF0E}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
