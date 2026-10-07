@@ -9,12 +9,12 @@
 					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{DEEC7A0B-C9A0-4984-A8BC-BD16FADEBE7E}"/>
-						<State Name="IglesiaDeMadera" ID="{97BC0369-1C25-4D3B-B7C9-D231A4BEDCC9}"/>
+						<State Name="IglesiaDeMaderaHumeda" ID="{97BC0369-1C25-4D3B-B7C9-D231A4BEDCC9}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
 							<StartState Name="None" ID="{DEEC7A0B-C9A0-4984-A8BC-BD16FADEBE7E}"/>
-							<EndState Name="IglesiaDeMadera" ID="{97BC0369-1C25-4D3B-B7C9-D231A4BEDCC9}"/>
+							<EndState Name="IglesiaDeMaderaHumeda" ID="{97BC0369-1C25-4D3B-B7C9-D231A4BEDCC9}"/>
 							<Time>0.5</Time>
 							<IsShared>true</IsShared>
 						</Transition>

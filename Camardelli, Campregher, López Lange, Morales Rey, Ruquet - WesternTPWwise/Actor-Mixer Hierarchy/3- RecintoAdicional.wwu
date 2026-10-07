@@ -248,8 +248,12 @@
 								<CustomState Name="" ID="{3868F7FF-5F29-4057-93CF-613ED1919730}" ShortID="908703857"/>
 							</CustomState>
 							<CustomState>
-								<StateRef Name="IglesiaDeMadera" ID="{97BC0369-1C25-4D3B-B7C9-D231A4BEDCC9}"/>
-								<CustomState Name="" ID="{C93AAC02-1FB7-45BE-AE21-36FCB060E49E}" ShortID="487785110"/>
+								<StateRef Name="IglesiaDeMaderaHumeda" ID="{97BC0369-1C25-4D3B-B7C9-D231A4BEDCC9}"/>
+								<CustomState Name="" ID="{C93AAC02-1FB7-45BE-AE21-36FCB060E49E}" ShortID="487785110">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="37"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 						</CustomStateList>
 					</StateInfo>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{4AF66DEA-3285-41D5-8B11-8888CBF111B6}" SchemaVersion="119">
+<WwiseDocument Type="WorkUnit" ID="{67EFA625-B7D1-4615-8D7F-B687A3D6AEF0}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Ambient" ID="{4AF66DEA-3285-41D5-8B11-8888CBF111B6}" PersistMode="Standalone">
+		<WorkUnit Name="2- Cueva" ID="{67EFA625-B7D1-4615-8D7F-B687A3D6AEF0}" PersistMode="Standalone">
 			<ChildrenList>
 				<BlendContainer Name="SFXUnion" ID="{D164173B-BB97-4D35-BA64-C33A6C35D617}" ShortID="977431187">
 					<PropertyList>
@@ -17,9 +17,6 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="BaseMaster" ID="{E8C2D9E0-0CE6-45CA-83F1-4FD8B9278AD3}" WorkUnitID="{D8DD219B-B7B2-4CD1-BE4C-12655CB922A2}"/>
-						</Reference>
-						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="IglesiaMadera" ID="{D6C32A5E-F290-4888-8F39-FF0F953CA9B4}" WorkUnitID="{D8DD219B-B7B2-4CD1-BE4C-12655CB922A2}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -481,6 +478,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<RandomSequenceContainer Name="Water_Sound" ID="{D3FB6C03-5651-47F6-BF07-40D8CA502CB9}" ShortID="71457940">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>25</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
@@ -546,74 +550,11 @@
 												<ActiveSource Name="Water_Falling_01" ID="{C5496D01-2E4E-4E3D-A3A4-2A582DF2AE4A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Water_Falling_03" ID="{D1C54129-2B5E-42A0-BEA0-3D17FB550BE4}" ShortID="378299792">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Water_Falling_02" ID="{211B75CB-6F16-403C-89E7-02FC48D66323}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.189205950294837"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="4.90880882558418"/>
-														<Property Name="TrimEnd" Type="Real64" Value="5.27998505868089"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Water_Falling_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="646497060"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Water_Falling_02" ID="{211B75CB-6F16-403C-89E7-02FC48D66323}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Water_Falling_04" ID="{27674359-5E09-4BC4-BF8B-3B0F2B6B543C}" ShortID="687527420">
-											<PropertyList>
-												<Property Name="Pitch" Type="int32">
-													<ValueList>
-														<Value>-100</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Water_Falling_01" ID="{A2DB5261-C582-4E6C-A9B0-B303FC8AB67F}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.10461626625959"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.299582944288827"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.656229306537429"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Water_Falling_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="802313749"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Water_Falling_01" ID="{A2DB5261-C582-4E6C-A9B0-B303FC8AB67F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="Water_Falling_05" ID="{8255A4AB-0368-4E74-AD31-8E204B04B14A}" ShortID="432289969">
 											<PropertyList>
 												<Property Name="Pitch" Type="int32">
 													<ValueList>
-														<Value>-100</Value>
+														<Value>350</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -644,11 +585,11 @@
 												<ActiveSource Name="Water_Falling_02" ID="{509F15F2-C205-405B-A1EA-4AC5E79D4CFA}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Water_Falling_06" ID="{01927889-E022-4BAD-9191-634927903F7F}" ShortID="854599436">
+										<Sound Name="Water_Falling_03" ID="{135BD2C0-3513-41B6-8036-5D8A955347AD}" ShortID="49559714">
 											<PropertyList>
 												<Property Name="Pitch" Type="int32">
 													<ValueList>
-														<Value>-100</Value>
+														<Value>350</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -661,29 +602,99 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Water_Falling_02" ID="{10525363-E423-41E0-A5FF-1E9FA0078BD0}">
+												<AudioFileSource Name="Water_Falling_01" ID="{34DA47B8-0FA6-45D7-89DB-69724C9DA10F}">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.189205950294837"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.10461626625959"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="4.90880882558418"/>
-														<Property Name="TrimEnd" Type="Real64" Value="5.27998505868089"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.299582944288827"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.656229306537429"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Water_Falling_02.wav</AudioFile>
+													<AudioFile>Water_Falling_01.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="646497060"/>
+														<MediaID ID="802313749"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Water_Falling_02" ID="{10525363-E423-41E0-A5FF-1E9FA0078BD0}" Platform="Linked"/>
+												<ActiveSource Name="Water_Falling_01" ID="{34DA47B8-0FA6-45D7-89DB-69724C9DA10F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water_Falling_04" ID="{10C80E26-C34F-46BF-94BB-7C21A77F85B4}" ShortID="491357410">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-350</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Water_Falling_01" ID="{A31362BB-DC7F-4175-94F1-B9EBFECF7A17}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.10461626625959"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.299582944288827"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.656229306537429"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Water_Falling_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="802313749"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Water_Falling_01" ID="{A31362BB-DC7F-4175-94F1-B9EBFECF7A17}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water_Falling_06" ID="{4EB1449E-5D5C-4725-AA96-D2C0D667902A}" ShortID="40360111">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-350</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Water_Falling_02" ID="{8F79C0DA-4E64-48CE-B641-E38C3532AB90}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.119674221601662"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.73593257753036"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.02606492260511"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Water_Falling_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="399224676"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Water_Falling_02" ID="{8F79C0DA-4E64-48CE-B641-E38C3532AB90}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<BlendContainer Name="DynamicWind" ID="{F7DE3543-6FFD-446F-BF67-6B54FBA7491D}" ShortID="256916068">
+						<BlendContainer Name="Atmosphere" ID="{F7DE3543-6FFD-446F-BF67-6B54FBA7491D}" ShortID="256916068">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
@@ -742,7 +753,7 @@
 								<CustomState Name="" ID="{0D6739DE-66D7-4517-9922-EA889CEA3B9F}" ShortID="698421097"/>
 							</CustomState>
 							<CustomState>
-								<StateRef Name="IglesiaDeMadera" ID="{97BC0369-1C25-4D3B-B7C9-D231A4BEDCC9}"/>
+								<StateRef Name="IglesiaDeMaderaHumeda" ID="{97BC0369-1C25-4D3B-B7C9-D231A4BEDCC9}"/>
 								<CustomState Name="" ID="{8748F9D6-15EA-4F9B-81B3-988DB4ECE0D0}" ShortID="565097166"/>
 							</CustomState>
 						</CustomStateList>

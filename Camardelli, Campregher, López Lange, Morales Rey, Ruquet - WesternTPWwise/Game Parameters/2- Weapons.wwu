@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{68F59C70-FA12-4013-B959-4758B6C8077B}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="2- Weapons" ID="{68F59C70-FA12-4013-B959-4758B6C8077B}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="MachineGunSpeed" ID="{AD697A63-F283-4EFA-8C5F-1A27B012E79C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
