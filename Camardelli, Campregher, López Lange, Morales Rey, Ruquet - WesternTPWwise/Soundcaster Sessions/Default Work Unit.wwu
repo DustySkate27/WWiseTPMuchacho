@@ -22,8 +22,19 @@
 							<Position X="3" Y="0"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
-					<CurrentStateList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="WindIntensity" ID="{122FAC94-A7E1-462D-9235-7FFAF922AEDA}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WalkSpeed" ID="{BFB7F2F5-8DD6-499C-92A3-32130AE2CB43}"/>
+							<Value>25</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{DEEC7A0B-C9A0-4984-A8BC-BD16FADEBE7E}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>
