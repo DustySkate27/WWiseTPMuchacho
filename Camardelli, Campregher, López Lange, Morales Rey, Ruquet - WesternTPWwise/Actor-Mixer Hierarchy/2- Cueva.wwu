@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="2- Cueva" ID="{67EFA625-B7D1-4615-8D7F-B687A3D6AEF0}" PersistMode="Standalone">
 			<ChildrenList>
-				<BlendContainer Name="SFXUnion" ID="{D164173B-BB97-4D35-BA64-C33A6C35D617}" ShortID="977431187">
+				<BlendContainer Name="Cueva" ID="{D164173B-BB97-4D35-BA64-C33A6C35D617}" ShortID="977431187">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
@@ -23,6 +23,7 @@
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -272,12 +273,12 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="RandomSounds" ID="{84811202-FB5C-4777-BF2C-B2FC0AF9C551}" ShortID="440464428">
 							<PropertyList>
-								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -315,6 +316,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="Bat_Sounds_04" ID="{857FCB95-4DD6-434A-B00E-257966D16350}" ShortID="347514907">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-200</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
@@ -343,6 +351,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Bat_Sounds_01" ID="{3E74A98F-A495-45E0-B959-922966EBA2FA}" ShortID="245856656">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-200</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
@@ -371,6 +386,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Bat_Sounds_02" ID="{E6ABB283-7F0E-4540-A9DB-37FE27791F0E}" ShortID="111317994">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-200</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
@@ -399,6 +421,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Bat_Sounds_03" ID="{31549B0A-617D-48E5-B630-77B044443033}" ShortID="747636742">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-200</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
@@ -424,6 +453,166 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="Bat_Sounds" ID="{01BD8A86-1D9E-42C2-BC11-4C9D83A06CBB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bat_Sounds_05" ID="{0B9F7E07-A51D-45BA-B85C-38914565F65A}" ShortID="172558506">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>300</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bat_Sounds" ID="{2176B7A9-CB3A-45E8-8B97-C662580D5E49}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0136727246368382"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.05005665396315"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.42741386255165"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Bat_Sounds.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="465931454"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bat_Sounds" ID="{2176B7A9-CB3A-45E8-8B97-C662580D5E49}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bat_Sounds_06" ID="{0EA080EB-EEAD-4060-8A4A-96D648B5AF89}" ShortID="395961211">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>300</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bat_Sounds" ID="{7694FFFB-2F1B-44FE-BE77-F1E9F91AE788}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0739695750137201"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="6.34007495719031"/>
+														<Property Name="TrimEnd" Type="Real64" Value="6.72062218406348"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Bat_Sounds.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="235091119"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bat_Sounds" ID="{7694FFFB-2F1B-44FE-BE77-F1E9F91AE788}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bat_Sounds_07" ID="{194FBC3C-CF59-49BE-863B-C014E84B7C90}" ShortID="186728069">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>300</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bat_Sounds" ID="{2D21DCCE-8292-4979-835F-F7D88675C259}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0488766335617186"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="27.4334540772689"/>
+														<Property Name="TrimEnd" Type="Real64" Value="27.8691741830118"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Bat_Sounds.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="355909580"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bat_Sounds" ID="{2D21DCCE-8292-4979-835F-F7D88675C259}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bat_Sounds_08" ID="{838563CE-0477-498C-8241-F942D473CE3E}" ShortID="35468498">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>300</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bat_Sounds" ID="{BC62AD6C-EB76-45EE-906C-9111189EC8D7}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.332090441645704"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="36.2007395358537"/>
+														<Property Name="TrimEnd" Type="Real64" Value="37.4536530303161"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Bat_Sounds.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="792784526"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bat_Sounds" ID="{BC62AD6C-EB76-45EE-906C-9111189EC8D7}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -935,7 +1124,6 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<Sound Name="Cave_Wind" ID="{4E2C5AC2-144B-4A4F-9580-A373FBDE3D07}" ShortID="820380484">
-							<Comment>La atmosfera de cueva se regula como RTPC desde el blend.</Comment>
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
@@ -991,6 +1179,12 @@
 																		<XPos>0</XPos>
 																		<YPos>0</YPos>
 																		<Flags>5</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>50</XPos>
+																		<YPos>51</YPos>
+																		<Flags>0</Flags>
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
 																	<Point>
@@ -1013,23 +1207,6 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
-					<StateInfo>
-						<StateGroupList>
-							<StateGroupInfo>
-								<StateGroupRef Name="RecintosAdicionales" ID="{62099DF8-B7C8-4F3E-B3C2-0CDF22E0B8B4}"/>
-							</StateGroupInfo>
-						</StateGroupList>
-						<CustomStateList>
-							<CustomState>
-								<StateRef Name="None" ID="{DEEC7A0B-C9A0-4984-A8BC-BD16FADEBE7E}"/>
-								<CustomState Name="" ID="{0D6739DE-66D7-4517-9922-EA889CEA3B9F}" ShortID="698421097"/>
-							</CustomState>
-							<CustomState>
-								<StateRef Name="IglesiaDeMaderaHumeda" ID="{97BC0369-1C25-4D3B-B7C9-D231A4BEDCC9}"/>
-								<CustomState Name="" ID="{8748F9D6-15EA-4F9B-81B3-988DB4ECE0D0}" ShortID="565097166"/>
-							</CustomState>
-						</CustomStateList>
-					</StateInfo>
 				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>

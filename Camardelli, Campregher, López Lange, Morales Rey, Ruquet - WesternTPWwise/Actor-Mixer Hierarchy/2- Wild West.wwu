@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="2- Wild West" ID="{3B917623-AEBC-4CE5-B2F6-046C1C41C1CA}" PersistMode="Standalone">
 			<ChildrenList>
-				<BlendContainer Name="SFXUnion" ID="{E409A3F2-1E4C-43B2-AE61-77624148EC2C}" ShortID="154857456">
+				<BlendContainer Name="WildWest" ID="{E409A3F2-1E4C-43B2-AE61-77624148EC2C}" ShortID="154857456">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
@@ -20,6 +20,7 @@
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>10</Value>
@@ -261,103 +262,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Crow_Random" ID="{98B3151E-AD1A-4291-97E4-1ACE61589143}" ShortID="168131343">
-									<PropertyList>
-										<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="0"/>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismLoopCount" Type="int32" Value="1"/>
-										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.3"/>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Weight" Type="Real64">
-											<ValueList>
-												<Value>10</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="2_AmbientCrow_Squawk_01" ID="{688CD049-B75F-4470-822C-16C30F79E3DB}" ShortID="251380816">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="2_AmbientCrow" ID="{AC823DD2-D5D0-4E9C-8C1E-75717D276493}">
-													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0561812357266669"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.351408403361344"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.86388638157287"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>2_AmbientCrow.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="698668516"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="2_AmbientCrow" ID="{AC823DD2-D5D0-4E9C-8C1E-75717D276493}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="2_AmbientCrow_Squawk_02" ID="{01945574-EB63-4A6C-B645-B2992D5D9442}" ShortID="657408736">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="2_AmbientCrow" ID="{FDCF7869-93E6-4FBE-81B8-8D850D19F7AB}">
-													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0561812357266669"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.351408403361344"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.86388638157287"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>2_AmbientCrow.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="698668516"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="2_AmbientCrow" ID="{FDCF7869-93E6-4FBE-81B8-8D850D19F7AB}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Playlist">
-											<Reference>
-												<ObjectRef Name="2_AmbientCrow_Squawk_01" ID="{688CD049-B75F-4470-822C-16C30F79E3DB}" WorkUnitID="{3B917623-AEBC-4CE5-B2F6-046C1C41C1CA}"/>
-											</Reference>
-											<Reference>
-												<ObjectRef Name="2_AmbientCrow_Squawk_02" ID="{01945574-EB63-4A6C-B645-B2992D5D9442}" WorkUnitID="{3B917623-AEBC-4CE5-B2F6-046C1C41C1CA}"/>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Bark_Howl_Random" ID="{EAD2D3A1-38F2-44BE-AF54-A887AEFFFA31}" ShortID="708750560">
 									<PropertyList>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
@@ -1097,6 +1001,311 @@
 										<ActiveSource Name="2_AmbientTumbleWeed" ID="{1ACE598E-3407-45E3-88FD-B3428932C2B5}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="CrowRandom" ID="{444A6CA0-A948-4C2E-8B34-68C48E0A89A9}" ShortID="363749258">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Crow_Random" ID="{98B3151E-AD1A-4291-97E4-1ACE61589143}" ShortID="168131343">
+											<PropertyList>
+												<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismLoopCount" Type="int32" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.3"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="2_AmbientCrow_Squawk_01" ID="{688CD049-B75F-4470-822C-16C30F79E3DB}" ShortID="251380816">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="2_AmbientCrow" ID="{AC823DD2-D5D0-4E9C-8C1E-75717D276493}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0561812357266669"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.351408403361344"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.86388638157287"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>2_AmbientCrow.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="698668516"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="2_AmbientCrow" ID="{AC823DD2-D5D0-4E9C-8C1E-75717D276493}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="2_AmbientCrow_Squawk_02" ID="{01945574-EB63-4A6C-B645-B2992D5D9442}" ShortID="657408736">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="2_AmbientCrow" ID="{FDCF7869-93E6-4FBE-81B8-8D850D19F7AB}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0561812357266669"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.351408403361344"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.86388638157287"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>2_AmbientCrow.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="698668516"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="2_AmbientCrow" ID="{FDCF7869-93E6-4FBE-81B8-8D850D19F7AB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Playlist">
+													<Reference>
+														<ObjectRef Name="2_AmbientCrow_Squawk_01" ID="{688CD049-B75F-4470-822C-16C30F79E3DB}" WorkUnitID="{3B917623-AEBC-4CE5-B2F6-046C1C41C1CA}"/>
+													</Reference>
+													<Reference>
+														<ObjectRef Name="2_AmbientCrow_Squawk_02" ID="{01945574-EB63-4A6C-B645-B2992D5D9442}" WorkUnitID="{3B917623-AEBC-4CE5-B2F6-046C1C41C1CA}"/>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Crow_Random_01" ID="{3C304EBF-81DB-4544-A9CF-DDC08BD36961}" ShortID="128358784">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>350</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismLoopCount" Type="int32" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.3"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="2_AmbientCrow_Squawk_01" ID="{695DA78D-2077-403D-8A43-6C5753328D59}" ShortID="70517651">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="2_AmbientCrow" ID="{7E14F0F8-CC7A-433C-88BD-FB0F21E5D7CE}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0561812357266669"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.351408403361344"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.86388638157287"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>2_AmbientCrow.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="698668516"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="2_AmbientCrow" ID="{7E14F0F8-CC7A-433C-88BD-FB0F21E5D7CE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="2_AmbientCrow_Squawk_02" ID="{236DD884-B4CB-4357-86FF-79744D8AAD58}" ShortID="652494759">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="2_AmbientCrow" ID="{86D5C528-D680-4D24-A49F-1E3E925220DF}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0561812357266669"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.351408403361344"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.86388638157287"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>2_AmbientCrow.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="698668516"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="2_AmbientCrow" ID="{86D5C528-D680-4D24-A49F-1E3E925220DF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Playlist">
+													<Reference>
+														<ObjectRef Name="2_AmbientCrow_Squawk_01" ID="{695DA78D-2077-403D-8A43-6C5753328D59}" WorkUnitID="{3B917623-AEBC-4CE5-B2F6-046C1C41C1CA}"/>
+													</Reference>
+													<Reference>
+														<ObjectRef Name="2_AmbientCrow_Squawk_02" ID="{236DD884-B4CB-4357-86FF-79744D8AAD58}" WorkUnitID="{3B917623-AEBC-4CE5-B2F6-046C1C41C1CA}"/>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Crow_Random_02" ID="{D7EC0E74-D0A1-4EA0-A70F-12A651CC9597}" ShortID="592551739">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-350</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismLoopCount" Type="int32" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.3"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="2_AmbientCrow_Squawk_01" ID="{220AC83F-763B-4047-8A54-DD0EC9430ADD}" ShortID="6280552">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="2_AmbientCrow" ID="{7FDD4651-2D08-4DF7-9EDF-58B0BD55549E}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0561812357266669"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.351408403361344"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.86388638157287"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>2_AmbientCrow.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="698668516"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="2_AmbientCrow" ID="{7FDD4651-2D08-4DF7-9EDF-58B0BD55549E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="2_AmbientCrow_Squawk_02" ID="{23C69351-C110-49A2-8A6E-DAA95FCEBFA2}" ShortID="285578378">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18F83AE9-E239-47DF-837D-0C0CFCA5E901}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D164CB1D-BB4C-475D-B4B3-30F6E7CC1240}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="2_AmbientCrow" ID="{2D258EE2-101D-46AD-8612-A9FB862611C2}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0561812357266669"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.351408403361344"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.86388638157287"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>2_AmbientCrow.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="698668516"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="2_AmbientCrow" ID="{2D258EE2-101D-46AD-8612-A9FB862611C2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Playlist">
+													<Reference>
+														<ObjectRef Name="2_AmbientCrow_Squawk_01" ID="{220AC83F-763B-4047-8A54-DD0EC9430ADD}" WorkUnitID="{3B917623-AEBC-4CE5-B2F6-046C1C41C1CA}"/>
+													</Reference>
+													<Reference>
+														<ObjectRef Name="2_AmbientCrow_Squawk_02" ID="{23C69351-C110-49A2-8A6E-DAA95FCEBFA2}" WorkUnitID="{3B917623-AEBC-4CE5-B2F6-046C1C41C1CA}"/>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<ObjectLists>
 								<ObjectList Name="RTPC">

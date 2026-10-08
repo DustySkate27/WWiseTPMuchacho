@@ -1,6 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C2B2752E-4C86-4112-8138-6B7C17BE609C}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{C2B2752E-4C86-4112-8138-6B7C17BE609C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C2B2752E-4C86-4112-8138-6B7C17BE609C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Pasos" ID="{EDF30C3A-EBBE-4013-87C6-953C46EE4550}">
+					<ChildrenList>
+						<Action Name="" ID="{2D8DEA51-D5D0-4597-A8F8-5D276DA15ABC}" ShortID="342669185">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pasos" ID="{8BC57D4A-BF65-4548-AF2B-D39C4A249482}" WorkUnitID="{74BA0B2E-7971-41AA-9623-295441FA3A27}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cueva" ID="{E4CDF037-4179-4162-9529-528110706855}">
+					<ChildrenList>
+						<Action Name="" ID="{542C426E-370E-4A21-A37F-E0D7DE0565B1}" ShortID="988778043">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cueva" ID="{D164173B-BB97-4D35-BA64-C33A6C35D617}" WorkUnitID="{67EFA625-B7D1-4615-8D7F-B687A3D6AEF0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Shooting" ID="{933A17F3-73CE-4EDD-AE25-EEAD5B97101F}">
+					<ChildrenList>
+						<Action Name="" ID="{1238F815-13DF-4CA7-B462-CC7CEEFB3A6B}" ShortID="699375000">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shooting" ID="{ABE18C2E-DB11-4190-BDEF-75C69F6AE5E1}" WorkUnitID="{FF0F672A-4680-4BE6-9DCF-8415214C08B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RecintoAdicional" ID="{0975E6D9-C058-4F5C-82B6-F3398323196F}">
+					<ChildrenList>
+						<Action Name="" ID="{3A5A2647-0958-4C79-96BB-4926580F1274}" ShortID="87674407">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RecintoAdicional" ID="{00FE597B-7F6C-4A33-8206-BFC361B8EB77}" WorkUnitID="{44C56BB3-ABFD-43ED-B5C8-F96488F66B72}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WildWest" ID="{EEDC507D-27E2-4241-A7C4-5BA12481D51E}">
+					<ChildrenList>
+						<Action Name="" ID="{AB3EF41B-8314-4065-AF2E-F38B4906A8C1}" ShortID="417078903">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WildWest" ID="{E409A3F2-1E4C-43B2-AE61-77624148EC2C}" WorkUnitID="{3B917623-AEBC-4CE5-B2F6-046C1C41C1CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

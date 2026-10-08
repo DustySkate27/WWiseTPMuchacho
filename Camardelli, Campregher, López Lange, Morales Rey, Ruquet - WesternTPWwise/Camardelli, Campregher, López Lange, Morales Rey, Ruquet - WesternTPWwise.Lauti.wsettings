@@ -4,6 +4,11 @@
 		<UserProjectSettings Name="" ID="{B8AEF09D-DA38-4D39-ACCA-BE89BE879436}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Lauti\Downloads\"/>
+				<Property Name="Event Action List\{0975E6D9-C058-4F5C-82B6-F3398323196F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{933A17F3-73CE-4EDD-AE25-EEAD5B97101F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E4CDF037-4179-4162-9529-528110706855}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{EDF30C3A-EBBE-4013-87C6-953C46EE4550}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{EEDC507D-27E2-4241-A7C4-5BA12481D51E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="EventView\FilterMode2" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -22,7 +27,7 @@
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="w4Pq/57XaEGbbP/x55GAUQ=="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="MmEtkJHMG022RbXv5zZTyg=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>

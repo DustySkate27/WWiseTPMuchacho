@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{62F06993-9660-4340-956A-60C9D71EDEAE}" SchemaVersion="119">
+	<Switches>
+		<WorkUnit Name="TPSwitchGroups" ID="{62F06993-9660-4340-956A-60C9D71EDEAE}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Pasos_Group" ID="{B87A3700-FD76-4610-878E-A3A9704E619E}">
+					<ChildrenList>
+						<Switch Name="Alfombra" ID="{798CFB80-40D5-4D9D-A676-5323C126147A}"/>
+						<Switch Name="MaderaChirriante" ID="{5E5D7F5B-9CB5-45F0-A9A8-2A48F79395D7}"/>
+						<Switch Name="MaderaHueca" ID="{2BEF1EA7-2A1F-464F-98E1-6B8E36C12E0C}"/>
+						<Switch Name="Metales" ID="{8F9A60FB-01F9-4B11-BC38-2E83CDC31FE4}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
